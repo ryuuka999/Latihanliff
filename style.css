@@ -1,0 +1,56 @@
+#welcomewrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  text-align: center;
+}
+
+#welcomewrapper .welcome {
+  font-size: 20pt;
+  display: block;
+}
+
+#nextButton, #aboutButton {
+  margin-top: 15px;
+}
+
+#homewrapper {
+  overflow-x : auto;
+  position: relative;
+}
+
+#homewrapper nav {
+  position: fixed;
+}
+
+#homewrapper .nav-wrapper a i{
+  padding-left: 10px;
+  margin-right: 10px; 
+}
+
+#homewrapper .nav-wrapper span {
+  font-size: 1.3em
+}
+
+#homewrapper article {
+  margin: 6em 10px
+}
+
+/* Error Notification */
+#liffIdErrorMessage {
+  text-align: center;
+}
+
+#liffIdErrorMessage ol {
+  list-style: none;
+}
+
+#idNotAvailable p{
+  text-align: center;
+}
+
+/* Toggle CSS */
+.hidden {
+  display: none;
+}
